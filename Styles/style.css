@@ -3,8 +3,13 @@
     margin: 0;
 }
 .box{
-    background-color: #122c52;
+    border: 1px solid rgb(255, 255, 255);
+    background-image: linear-gradient(#004d40, #33691ed1);
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 .dashboard{
     height: 100vh;
@@ -13,6 +18,7 @@
     grid-template-rows: 200px 150px 100px 150px;
     gap: 10px;
     padding: 10px;
+    background-image: linear-gradient(#003366, #263238a6); 
 }
 .sid{
     grid-row: 1 / -1;
